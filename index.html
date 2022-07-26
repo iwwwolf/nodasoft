@@ -1,0 +1,44 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nodasoft test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <header class="header">
+      <label class="button button_light" for="popup-toggler">Open pop-up button</label>
+    </header>
+
+    <div class="grid-content">
+      <div class="grid-content__block grid-content__block_first"></div>
+      <div class="grid-content__block grid-content__block_second"></div>
+      <div class="grid-content__block grid-content__block_third"></div>
+      <div class="grid-content__block grid-content__block_fourth"></div>
+      <div class="grid-content__block grid-content__block_fifth"></div>
+    </div>
+
+    <div class="ratio-content">
+      <div class="ratio-content_block"></div>
+      <div class="ratio-content_block"></div>
+      <div class="ratio-content_block"></div>
+      <div class="ratio-content_block"></div>
+    </div>
+
+    <footer class="footer"></footer>
+  </div>
+  <input type="checkbox" name="popup-toggler" id="popup-toggler" class="popup-toggler">
+  <div class="popup">
+    <label for="popup-toggler" class="popup__overlay"></label>
+    <div class="popup__window">
+      <label for="popup-toggler" class="button button_dark popup__close-button">X</label>
+      <div class="popup__text">Pop-up</div>
+    </div>
+  </div>
+</body>
+</html>

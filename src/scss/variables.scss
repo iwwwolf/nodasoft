@@ -1,0 +1,26 @@
+$color-white: #fff;
+$color-black: #000;
+$color-info: #7FAFF6;
+$color-info-light: #A5C7F9;
+
+$font-color-main: $color-white;
+
+$font-size-mobile: 14px;
+$font-size-tablet: 16px;
+$font-size-desktop: 20px;
+
+$bp-small: 380px;
+$bp-medium: 480px;
+$bp-tablet: 980px;
+$bp-desktop: 1200px;
+
+$button-text-color: $font-color-main;
+$button-light-backgroud: $color-info-light;
+$button-light-backgroud-hover: darken($color-info-light, 3%);
+$button-dark-backgroud: $color-info;
+$button-dark-backgroud-hover: darken($color-info, 3%);
+
+$radius-base: 5px;
+
+$indent-default: 15px;
+$indent-large: 30px;
